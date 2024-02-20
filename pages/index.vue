@@ -1,0 +1,54 @@
+<template>
+  <!-- 电脑版 -->
+  <v-container class="d-none d-sm-flex flex-column">
+    <!-- <div class="text-center text-h5 text-sm-h3 mb-8">
+      This is my home page!
+    </div>
+
+    <div class="d-sm-flex justify-space-around">
+      <div class="my-4 d-flex flex-column align-center">
+        <v-img :width="200" :aspect-ratio="1" src="/public/flappybird.png" alt="FlappyBird" cover></v-img>
+        <div class="text-sm-h6 text-center mb-2">Flappy Bird</div>
+      </div>
+
+      <div class="my-4 d-flex flex-column align-center">
+        <v-img :width="200" :aspect-ratio="1" src="/public/pong.png" alt="Pong"></v-img>
+        <div class="text-sm-h6 text-center mb-2">Pong</div>
+      </div>
+    </div> -->
+    <div class="text-center text-h4 mb-6">
+      This is my home page!
+    </div>
+
+    <div class="d-flex justify-space-around">
+      <div class="my-4 d-flex flex-column align-center">
+        <v-img :width="200" :aspect-ratio="1" src="/public/flappybird.png" alt="FlappyBird" cover></v-img>
+        <div class="text-h6 text-center mb-2">Flappy Bird</div>
+      </div>
+
+      <div class="my-4 d-flex flex-column align-center">
+        <v-img :width="200" :aspect-ratio="1" src="/public/pong.png" alt="Pong"></v-img>
+        <div class="text-h6 text-center mb-2">Pong</div>
+      </div>
+    </div>
+  </v-container>
+
+  <!-- 手机版 -->
+  <v-container class="d-sm-none">
+    <div class="text-center text-h5 text-sm-h3 mb-8">
+      This is my home page!
+    </div>
+
+    <div class="d-sm-flex justify-space-around">
+      <div class="my-4 d-flex flex-column align-center">
+        <v-img :width="200" :aspect-ratio="1" src="/public/flappybird.png" alt="FlappyBird" cover></v-img>
+        <div class="text-sm-h6 text-center mb-2">Flappy Bird</div>
+      </div>
+
+      <div class="my-4 d-flex flex-column align-center">
+        <v-img :width="200" :aspect-ratio="1" src="/public/pong.png" alt="Pong"></v-img>
+        <div class="text-sm-h6 text-center mb-2">Pong</div>
+      </div>
+    </div>
+  </v-container>
+</template>
