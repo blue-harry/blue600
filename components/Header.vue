@@ -141,14 +141,14 @@ const navItems = [
     navTitle: "Games",
     navMenu: [
       {
-        icon: "mdi-cart-outline",
+        icon: "mdi-nintendo-game-boy",
         title: "Games With Vanilla Javascript",
         subtitle: "2D Games Developed With Pure Javascript and HTML5 ",
         link: "/games2D",
       },
 
       {
-        icon: "mdi-baguette",
+        icon: "mdi-controller",
         title: "Games With Playcanvus",
         subtitle: "3D Games Developed With Playcanvus Game Engine",
         link: "/games3D",
@@ -160,16 +160,16 @@ const navItems = [
     navTitle: "Links",
     navMenu: [
       {
-        icon: "mdi-lotion-outline",
-        title: "Links",
-        subtitle: "美业连锁机构 | 统一管理和调配 | 支持连锁门店有限业务差异化",
+        icon: "mdi-cloud-circle",
+        title: "Cloud games",
+        subtitle: "Games you play online",
         link: "/links",
       },
       {
-        icon: "mdi-hospital-box-outline",
-        title: "美容保健大品牌",
+        icon: "mdi-download-box",
+        title: "Game downloads",
         subtitle:
-          "大品牌服务机构 | 量身定制数字化方案 | 实现品牌战略和管理目标",
+          "Game downloads",
         link: "/job",
       },
     ],
